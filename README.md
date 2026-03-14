@@ -77,8 +77,8 @@ LOG                                              💾 SAVE LOG
 ## インストール
 
 ```bash
-git clone https://github.com/yourname/spice-kernel-downloader.git
-cd spice-kernel-downloader
+git clone https://github.com/kensyo-lab/my-physics-script.git
+cd my-physics-script
 python spice_downloader_gui.py
 ```
 
@@ -163,7 +163,7 @@ macOS では、ダウンロード開始時に `caffeinate -i` を自動起動し
 ## ファイル構成
 
 ```
-spice-kernel-downloader/
+my-physics-script/
 ├── spice_downloader_gui.py   # メインスクリプト（これだけで動作）
 ├── README.md
 └── download_spice_kernels.py # CUIバージョン（GUI不要な環境向け）
